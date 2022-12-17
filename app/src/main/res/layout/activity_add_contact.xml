@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddContactActivity"
+    android:padding="8dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name_textview"
+        android:layout_margin="8dp"
+        android:textStyle="bold"
+        android:textColor="#1293DA"
+        android:textSize="25sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name_entered_editText"
+        android:hint="@string/name_edittext"
+        android:textSize="20sp"
+        android:inputType="textCapWords"
+        android:layout_margin="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/number_textview"
+        android:layout_margin="8dp"
+        android:textColor="#1293DA"
+        android:textStyle="bold"
+        android:textSize="25sp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/number_entered_editText"
+        android:hint="@string/number_edittext"
+        android:textSize="20sp"
+        android:inputType="number"
+        android:layout_margin="8dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/save_button"
+        android:onClick="onClickSaveEntry"
+        android:layout_gravity="center"
+        android:text="@string/add_button"
+        android:background="#2ACAC9" />
+
+
+
+</LinearLayout>

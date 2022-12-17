@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Phone Contacts</string>
+    <string name="name_edittext">Enter Name</string>
+    <string name="name_textview">Name</string>
+    <string name="number_edittext">Enter Number</string>
+    <string name="number_textview">Number</string>
+    <string name="add_button">Save</string>
+
+</resources>
